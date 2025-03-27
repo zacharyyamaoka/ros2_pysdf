@@ -3,7 +3,7 @@
 import sys
 import argparse
 
-import pysdf
+import ros2_pysdf
 
 
 def main():
@@ -14,7 +14,7 @@ def main():
   parser.add_argument('--no-prefix', action='store_true', help='Do not use model name as name prefix')
   args = parser.parse_args()
 
-  sdf = pysdf.SDF(file=args.sdf)
+  sdf = ros2_pysdf.SDF(file=args.sdf)
   world = sdf.world
   if args.plot:
     world.plot_to_file(args.plot[0])

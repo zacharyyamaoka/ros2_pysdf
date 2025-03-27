@@ -1,0 +1,39 @@
+{
+    "ros.distro": "iron",
+    "python.autoComplete.extraPaths": [
+        "/home/bam-gpu/moveit_ws/install/moveit_py/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/generate_parameter_module_example/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/cmake_generate_parameter_module_example/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/moveit_msgs/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/generate_parameter_library_py/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/ros2_pysdf/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/pymoveit2/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/build/moteus_control",
+        "/home/bam-gpu/public_ws/install/moteus_control/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/moteus_msgs/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/build/easy_handeye2",
+        "/home/bam-gpu/public_ws/install/easy_handeye2/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/easy_handeye2_msgs/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bam-gpu/moveit_ws/install/moveit_py/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/generate_parameter_module_example/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/cmake_generate_parameter_module_example/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/moveit_msgs/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/bam-gpu/moveit_ws/install/generate_parameter_library_py/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/ros2_pysdf/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/pymoveit2/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/build/moteus_control",
+        "/home/bam-gpu/public_ws/install/moteus_control/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/moteus_msgs/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/build/easy_handeye2",
+        "/home/bam-gpu/public_ws/install/easy_handeye2/lib/python3.10/site-packages",
+        "/home/bam-gpu/public_ws/install/easy_handeye2_msgs/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}

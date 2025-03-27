@@ -8,10 +8,10 @@ from xml.etree.ElementTree import ParseError
 import xml.dom.minidom
 import glob
 
-from tf.transformations import *
+from tf_transformations import *
 
-from pysdf.naming import *
-from pysdf.conversions import *
+from ros2_pysdf.naming import *
+from ros2_pysdf.conversions import *
 
 models_paths = [os.path.expanduser('~/.gazebo/models/')]
 
@@ -21,7 +21,7 @@ if 'GAZEBO_MODEL_PATH' in os.environ:
 
 mesh_path_env_name='MESH_WORKSPACE_PATH'
 if mesh_path_env_name in os.environ:
-  catkin_ws_path = os.environ[mesh_path_env_name]
+  catkin_ws_path = os.path.expanduser(os.environ[mesh_path_env_name])
 else:
   catkin_ws_path = os.path.expanduser('~') + '/catkin_ws/src/'
 supported_sdf_versions = [1.4, 1.5, 1.6]
